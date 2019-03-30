@@ -1,17 +1,19 @@
 {
   "name": "expo-web-app",
+  "main": "src/index.native.js",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
+    "expo": "^32.0.0",
+    "react": "16.5.0",
+    "react-dom": "^16.5.0",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-32.0.0.tar.gz",
+    "react-native-web": "^0.11.2",
     "react-scripts": "2.1.8"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "start-web": "react-scripts start",
+    "start-native": "expo start"
   },
   "eslintConfig": {
     "extends": "react-app"
